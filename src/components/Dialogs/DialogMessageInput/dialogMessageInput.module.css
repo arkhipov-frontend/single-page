@@ -1,0 +1,21 @@
+form {
+  padding: 0 5px;
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 4px;
+}
+form input {
+  flex: 1 1 auto;
+  min-height: 30px;
+  margin-right: 5px;
+  background-color: #383838;
+  border: 1px solid rgba(124, 124, 124, 0.651);
+  color: aliceblue;
+}
+
+form button {
+  background-color: #696969;
+  border: none;
+  border-radius: 4px;
+  color: aliceblue;
+}

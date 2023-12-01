@@ -1,0 +1,9 @@
+.lorem {
+  flex: 1 1 auto;
+
+  color: rgba(132, 138, 143, 0.404);
+  text-align: justify;
+
+  padding: 0 0 10px 0;
+}
+

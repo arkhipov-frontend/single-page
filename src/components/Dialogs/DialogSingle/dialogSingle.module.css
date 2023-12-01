@@ -1,0 +1,11 @@
+.dialogSingle {
+  background-color: #28393d;
+  color: aliceblue;
+  box-shadow: 0 0 10px rgb(80, 147, 163);
+
+  flex: 1 1 auto;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+}

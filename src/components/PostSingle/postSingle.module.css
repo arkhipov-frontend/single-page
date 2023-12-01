@@ -1,0 +1,39 @@
+.postSingle {
+  min-height: 100px;
+
+  color: aliceblue;
+  background-color: #2e2e2e;
+  box-shadow: 0 0 8px rgba(50, 221, 198, 0.411);
+  border-radius: 3px;
+
+  padding: 4px;
+
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 40px 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 8px;
+  margin-bottom: 6px;
+}
+.imgWrapper {
+  grid-area: 1 / 1 / 2 / 2; 
+  padding: 4px;
+}
+.userPhoto {
+  width: 100%;
+}
+.userName {
+  font-size: 8px;
+  text-align: center;
+}
+.postInfo {
+  grid-area: 1 / 2 / 2 / 2;
+  background-color: #3d3d3d;
+  color: aqua;
+  padding: 4px;
+}
+.postText {
+  grid-area: 2 / 2 / 3 / 3;
+  color: aquamarine;
+  padding: 0x 4px;
+}

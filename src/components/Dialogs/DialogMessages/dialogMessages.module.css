@@ -1,0 +1,10 @@
+.messages {
+  flex: 1 1 auto;
+  padding: 5px;
+  margin: 5px;
+  background-color: #30413b;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+}

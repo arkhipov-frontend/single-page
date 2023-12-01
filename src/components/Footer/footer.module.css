@@ -1,0 +1,10 @@
+.footer {
+  min-height: 20px;
+  padding: 16px;
+  text-align: center;
+
+  background-color: #313131;
+  border-top: 1px solid rgba(70, 209, 202, 0.61);
+  color: rgb(138, 202, 194);
+}
+

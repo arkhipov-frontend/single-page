@@ -1,0 +1,17 @@
+.App {
+  background-color: #242424;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  min-height: 100vh;
+
+  padding-top: calc(var(--header-height) + 8px);
+}
+
+.appScrollLocked {
+  overflow: hidden;
+  height: 100vh;
+}
+

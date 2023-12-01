@@ -1,0 +1,48 @@
+.dialogSingle {
+  min-height: 50px;
+  max-height: 80px;
+  margin-bottom: 8px;
+  padding: 4px;
+
+  background-color: #3a3a3a;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(103, 194, 149, 0.788);
+
+  display: flex;
+  gap: 8px;
+
+  transition: .3s;
+}
+.dialogSingle:hover {
+  box-shadow: 0 0 10px rgb(111, 210, 218);
+}
+
+.userInfo {
+  flex: 0 0 50px;
+  /* overflow: hidden; */
+}
+
+.userPhoto {
+  width: 100%;
+  max-height: 50px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 300px;
+}
+
+.userName {
+  color: rgb(136, 216, 216);
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lastMessage {
+  flex: 1 1 auto;
+  background-color: #353434;
+  color: rgb(93, 204, 204);
+  padding: 4px;
+  overflow: hidden;
+}
+

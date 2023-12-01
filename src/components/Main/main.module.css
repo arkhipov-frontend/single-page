@@ -1,0 +1,17 @@
+.main {
+  flex: 1 1 auto;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main Routes{
+  flex: 1 1 auto;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.mainback {
+  background-color: rgb(62, 126, 73);
+}
